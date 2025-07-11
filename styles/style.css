@@ -141,3 +141,44 @@ img{
   line-height: 0%;
   font-weight: 200;
 }
+
+/*Get in touch section*/
+.get-in-touch{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 980px;
+  height: 300px;
+  margin: 150px 100px 100px 100px;
+  
+}
+.get-in-header{
+  width: 450px;
+  height: 190px;
+  font-size: 60px;
+  font-weight: 600;
+}
+.get-in-form{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+.get-in-form input[type="text"] , input[type="email"] , input[type="submit"]{
+  width: 350px;
+  height: 60px;
+  border-radius:10px;
+  border: none;
+  box-shadow: none;
+}
+
+.get-in-form textarea{
+  border-radius: 10px;
+}
+.get-in-form input::placeholder , textarea::placeholder{
+  padding-left: 15px;
+  padding-top: 9px;
+  font-size: 16px;
+  color: rgb(129, 123, 123);
+}

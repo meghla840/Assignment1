@@ -81,6 +81,8 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+   width: 980px;
+  height: 300px;
   margin: 100px;
   
 }
@@ -102,4 +104,40 @@ nav{
 }
 img{
   border-radius: 30px;
+}
+/*Productive Users*/
+
+.productive-users{
+  background-color:#cfcfe4 ;
+  border-radius: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 980px;
+  height: 300px;
+  margin: 100px;
+}
+
+.productive-heading{
+  width: 700px;
+  height: 45px;
+}
+.contain-users{
+  width: 700px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prodctive-count{
+  font-size: 50px;
+  line-height: 0%;
+  font-weight: 700;
+}
+.users-cat{
+  font-size: 15px;
+  line-height: 0%;
+  font-weight: 200;
 }

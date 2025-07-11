@@ -228,3 +228,96 @@ footer{
 .contain-foot-anchor a:hover{
   text-decoration: rgb(63, 7, 7) underline;
 }
+
+/*Challeng Section*/
+
+.users-feedback-section{
+  width: 980px;
+  height: 360px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.feedback-heading{
+  font-size: 40px;
+  font-weight: 700;
+  color: #252432;
+}
+.contain-feedback{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  width: 980px;
+  height: 250px;
+  
+}
+.feedback{
+  width: 367px;
+  height: 200px;
+  background-color: rgb(249, 246, 246);
+  margin: 10px;
+  padding-top: 10px;
+  padding-left: 17px;
+  border-radius: 14px;
+  border: 5px rgb(86, 65, 65);
+}
+.feedback-star{
+  line-height: 0%;
+  margin-top: 7px;
+}
+
+.user-info{
+  display: flex;
+  gap: 20px;
+  line-height: 0%;
+  justify-content: start;
+  align-items: center;
+}
+.user-profile{
+  width: 50px;
+  height: 50px;
+}
+.user-name ,feedback-date{
+  line-height: 0%;
+}
+.feedback-color-text{
+  color: #1E1E1E;
+}
+.user-name {
+  color: #757575;
+  font-size: 15px;
+  font-weight: 600;
+}
+.feedback-date{
+  color: #B3B3B3;
+  font-size: 15px;
+  font-weight: 400;
+}
+.feedback-type{
+  color: #1E1E1E;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 0%;
+
+}
+.user-feedback{
+  color: #1E1E1E;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*button- challenge*/
+
+ input[type="submit"]:hover, button:hover{
+  transform: scale(1.2);
+  background: linear-gradient(90deg,rgb(117, 45, 45) , rgb(58, 33, 103),pink);
+  border-radius: 5px 15px 5px;
+  color: aliceblue;
+}
+button ,input[type="submit"]{
+  transition: transform 0.3 ease;
+}

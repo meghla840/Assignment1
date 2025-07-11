@@ -26,10 +26,16 @@
 }
 body{
   background-color: rgb(223, 223, 236);
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  
 }
 /* Header section*/
+header{
+  margin-top: 0px;
+  padding-top: 0px;
+  float: top;
+}
 .header-class{
   background-image: url(../Assets/Hero-bg.png);
   margin-top:0px;
@@ -313,11 +319,49 @@ footer{
 /*button- challenge*/
 
  input[type="submit"]:hover, button:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
   background: linear-gradient(90deg,rgb(117, 45, 45) , rgb(58, 33, 103),pink);
   border-radius: 5px 15px 5px;
-  color: aliceblue;
+  color: rgb(215, 232, 219);
+  box-shadow: 5px 5px rgb(50, 54, 54);
+  font-weight: 600;
 }
 button ,input[type="submit"]{
   transition: transform 0.3 ease;
+}
+/* Appreciation Part*/
+.appreciation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 980px;
+  height: 600px;
+  gap: 15px;
+  margin: 100px;
+  background-color: white;
+  border-radius: 10px;
+  
+}
+.appreciation h2{
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+  line-height: 0%;
+}
+.appreciation p{
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 0%;
+  color: rgb(21, 21, 21);
+}
+.appreciation img{
+  border-radius: 30px;
+  width: 750px;
+  height: 300px;
+}
+.appreciation button{
+  width: 180px;
+  height: 48px;
 }

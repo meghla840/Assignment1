@@ -32,7 +32,7 @@ body{
 /* Header section*/
 .header-class{
   background-image: url(../Assets/Hero-bg.png);
-  margin-top: 0px;
+  margin-top:0px;
   width: 100%;
   height: 500px;
 }
@@ -149,7 +149,7 @@ img{
   align-items: center;
   width: 980px;
   height: 300px;
-  margin: 150px 100px 100px 100px;
+  margin: 150px 100px 150px 100px;
   
 }
 .get-in-header{
@@ -181,4 +181,50 @@ img{
   padding-top: 9px;
   font-size: 16px;
   color: rgb(129, 123, 123);
+}
+
+/*footer*/
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 428px;
+}
+
+.footer-container{
+  line-height: normal;
+  width: 560px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contain-foot-anchor{
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer-logo{
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 0%;
+}
+.footer-desc{
+  color: #8987A1;
+  font-size: 15px;
+}
+.contain-foot-anchor a{
+  text-decoration: none;
+  color: #8987A1;
+  font-size: 15px;
+}
+.contain-foot-anchor a:hover{
+  text-decoration: rgb(63, 7, 7) underline;
 }
